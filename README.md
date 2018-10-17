@@ -52,4 +52,4 @@ Some charactes look nice, but are anoying when a screen reader sees them. For in
 
 There are many more symbols that are pronounced. These could be added.
 
-<b id="f1">1</b> Here’s an explanation of [how to add a bookmarklet to your browser](https://mreidsma.github.io/bookmarklets/installing.html) [↩](#a1)
+<b id="f1">1.</b> Here’s an explanation of [how to add a bookmarklet to your browser](https://mreidsma.github.io/bookmarklets/installing.html) [↩](#a1)
