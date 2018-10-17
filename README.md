@@ -1,6 +1,6 @@
-# screenreaderizer
+# The Screenreaderizer
 
-Drag this <a href="javascript:(function(){ttm=(new Date).getTime();scrpt=document.createElement('script');scrpt.src='https://vasilisvg.github.io/screenreaderizer/js.js?'+ttm;stl=document.createElement('link');stl.setAttribute('rel','stylesheet');stl.href='https://vasilisvg.github.io/screenreaderizer/css.css?'+ttm;document.body.appendChild(scrpt);document.body.appendChild(stl);})();">screenreaderize</a> bookmarklet to your bookmarks bar to get an impression of the content that’s been added to your website when it is read out loud by a screen reader. It’s purpose is to make you wonder if your page really needs 450 links and 68 random headings. It doesn't seem to work in Firefox
+Add this <a href="javascript:(function(){ttm=(new Date).getTime();scrpt=document.createElement('script');scrpt.src='https://vasilisvg.github.io/screenreaderizer/js.js?'+ttm;stl=document.createElement('link');stl.setAttribute('rel','stylesheet');stl.href='https://vasilisvg.github.io/screenreaderizer/css.css?'+ttm;document.body.appendChild(scrpt);document.body.appendChild(stl);})();">screenreaderize</a> bookmarklet to your bookmarks[^Here’s an explanation of [how to add a bookmarklet to your browser](https://mreidsma.github.io/bookmarklets/installing.html)]. When you manage to do so you can use it to get an impression of the content that’s been added to your website when it is read out loud by a screen reader. It’s purpose is to make you wonder if your page really needs 450 links and 68 random headings. It doesn't seem to work in Firefox.
 
 ## Is it accurate?
 
