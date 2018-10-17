@@ -62,7 +62,7 @@ There are many things that can be done.
 
 It needs an *exponentialize* option. The more elements there are on a page, the harder each of them starts to shout. I tried to explain this concept in this blog post about [Designing like it’s 1999](https://vasilis.nl/research/2018/09/design-like-its-1999/).
 
-There are many more things that get pronounced. If you know any, you can add an issue, preferably with a link where I can find the feature. I might try to add it one day. Or better, you can send me a pull request. 
+There are many more things that get pronounced. If you know any, [you can add an issue](https://github.com/vasilisvg/screenreaderizer/issues), preferably with a link where I can find the feature. I might try to add it one day. Or better, you can send me a pull request. 
 
 The js.js file is written by me, a n00b. It probably needs smarter code.
 
