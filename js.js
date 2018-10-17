@@ -1,5 +1,5 @@
 // Show the amount of links and headings on a page.
-funtion displaySummary(){
+function displaySummary(){
 	var listLinks = document.querySelectorAll('a');
 	var listHeadings = document.querySelectorAll('h1,h2,h3,h4,h5,h6');
 	var summary = document.createElement('div');
