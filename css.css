@@ -9,6 +9,7 @@
 	position: relative !important;
 	display: inline-block !important;
 	font-size: inherit !important;
+	align-self: flex-start ;
 }
 *::after {
 	display: inline-block !important;
