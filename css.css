@@ -5,11 +5,11 @@
 [id ^= "vasilis-srm"],
 [class^="vasilis-srm"] {
 	color: limegreen !important;
-	background: black !important;
+	background: black;
 	position: relative !important;
 	display: inline-block !important;
 	font-size: inherit !important;
-	align-self: flex-start ;
+	align-self: flex-start;
 }
 *::after {
 	display: inline-block !important;
