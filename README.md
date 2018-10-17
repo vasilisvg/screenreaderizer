@@ -6,6 +6,10 @@ Add this <a href="javascript:(function(){ttm=(new Date).getTime();scrpt=document
 
 No, it isn't. But neither are screen readers and neither is your website. So yes, it is accurate.
 
+Here is what it looks like on a webpage with Dutch documentaries, the reason why I made this bookmarklet.
+
+![A screenshot of the 2doc.nl homepage with quite a lot of extra generated content.](https://ndoe.nl/screen/1539800843-938116584.png)
+
 ## What are the features?
 
 I based the features on some default settings I found on VoiceOver on my Mac, and the default setting of JAWS on my windows laptop. These are probably not the setting that powerusers use, but based on a few observations, I assume that these may reflect the setting used by common users. 
