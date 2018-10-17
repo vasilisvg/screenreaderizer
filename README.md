@@ -1,6 +1,6 @@
 # The Screenreaderizer
 
-Add this <a href="javascript:(function(){ttm=(new Date).getTime();scrpt=document.createElement('script');scrpt.src='https://vasilisvg.github.io/screenreaderizer/js.js?'+ttm;stl=document.createElement('link');stl.setAttribute('rel','stylesheet');stl.href='https://vasilisvg.github.io/screenreaderizer/css.css?'+ttm;document.body.appendChild(scrpt);document.body.appendChild(stl);})();">screenreaderize</a> bookmarklet to your bookmarks[^Here’s an explanation of [how to add a bookmarklet to your browser](https://mreidsma.github.io/bookmarklets/installing.html)]. When you manage to do so you can use it to get an impression of the content that’s been added to your website when it is read out loud by a screen reader. It’s purpose is to make you wonder if your page really needs 450 links and 68 random headings. It doesn't seem to work in Firefox.
+Add this <a href="javascript:(function(){ttm=(new Date).getTime();scrpt=document.createElement('script');scrpt.src='https://vasilisvg.github.io/screenreaderizer/js.js?'+ttm;stl=document.createElement('link');stl.setAttribute('rel','stylesheet');stl.href='https://vasilisvg.github.io/screenreaderizer/css.css?'+ttm;document.body.appendChild(scrpt);document.body.appendChild(stl);})();">screenreaderize</a> bookmarklet to your bookmarks<sup id="a1">[1](#f1)</sup>. When you manage to do so you can use it to get an impression of the content that’s been added to your website when it is read out loud by a screen reader. It’s purpose is to make you wonder if your page really needs 450 links and 68 random headings. It doesn't seem to work in Firefox.
 
 ## Is it accurate?
 
@@ -51,3 +51,5 @@ The previous paragraph will probably have seven items in it. A quote, two code s
 Some charactes look nice, but are anoying when a screen reader sees them. For instance, the vertical line `|` is useful to divide things. But is is spoken out loud as *vertical line*. Which can be annoying. 
 
 There are many more symbols that are pronounced. These could be added.
+
+<b id="f1">1</b> Here’s an explanation of [how to add a bookmarklet to your browser](https://mreidsma.github.io/bookmarklets/installing.html) [↩](#a1)
