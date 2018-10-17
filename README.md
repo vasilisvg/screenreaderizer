@@ -52,4 +52,14 @@ Some charactes look nice, but are anoying when a screen reader sees them. For in
 
 There are many more symbols that are pronounced. These could be added.
 
+## Todo
+
+There are many things that can be done.
+
+There are many more things that get pronounced. If you know any, you can add an issue, preferably with a link where I can find the feature. I might try to add it one day. Or better, you can send me a pull request. 
+
+The js.js file is written by me, a n00b. It probably needs smarter code.
+
+<hr>
+
 <b id="f1">How?</b> Here’s an explanation of [how to add a bookmarklet to your browser](https://mreidsma.github.io/bookmarklets/installing.html) [↩](#a1)
