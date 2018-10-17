@@ -48,6 +48,6 @@ The previous paragraph will probably have seven items in it. A quote, two code s
 
 ### Annoying characters, mostly JavaScript
 
-Some charactes look nice, but are anoying when a screen reader sees them. For instance, the vertical line | is useful to divide things. But is is spoken out loud as *vertical line*. Which is annoying. 
+Some charactes look nice, but are anoying when a screen reader sees them. For instance, the vertical line `|` is useful to divide things. But is is spoken out loud as *vertical line*. Which is annoying. 
 
 There are many more symbols that are pronounced. These could be added.
