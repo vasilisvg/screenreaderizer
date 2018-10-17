@@ -1,0 +1,99 @@
+/* General */
+
+*::before,
+*::after,
+[id ^= "vasilis-srm"],
+[class^="vasilis-srm"] {
+	color: limegreen !important;
+	background: black !important;
+	position: relative !important;
+	display: inline-block !important;
+	font-size: inherit !important;
+}
+*::after {
+	display: inline-block !important;
+}
+
+/* Inline elements */
+a:not([role="button"])::before {
+	content: "link, ";
+}
+abbr[title]::after {
+	content: " (" attr(title) ") ";
+	text-transform: capitalize;
+}
+button::after,
+*[role="button"]::after {
+	content: ", button";
+}
+
+/* Headings */
+h1::before {
+	content: "Heading level 1: ";
+}
+h2::before {
+	content: "Heading level 2: ";
+}
+h3::before {
+	content: "Heading level 3: ";
+}
+h4::before {
+	content: "Heading level 4: ";
+}
+h5::before {
+	content: "Heading level 5: ";
+}
+h6::before {
+	content: "Heading level 6: ";
+}
+
+/* Navigation */
+nav::before {
+	content: "navigation. ";
+}
+
+/* Lists */
+li:first-child::before {
+	content: "list, more than 12 items. ";
+}
+li:nth-last-child(1):first-child::before {
+	content: "list, 1 item. ";
+}
+li:nth-last-child(2):first-child::before {
+	content: "list, 2 items. ";
+}
+li:nth-last-child(3):first-child::before {
+	content: "list, 3 items. ";
+}
+li:nth-last-child(4):first-child::before {
+	content: "list, 4 items. ";
+}
+li:nth-last-child(5):first-child::before {
+	content: "list, 5 items. ";
+}
+li:nth-last-child(6):first-child::before {
+	content: "list, 6 items. ";
+}
+li:nth-last-child(7):first-child::before {
+	content: "list, 7 items. ";
+}
+li:nth-last-child(8):first-child::before {
+	content: "list, 8 items. ";
+}
+li:nth-last-child(9):first-child::before {
+	content: "list, 9 items. ";
+}
+li:nth-last-child(10):first-child::before {
+	content: "list, 10 items. ";
+}
+li:nth-last-child(11):first-child::before {
+	content: "list, 11 items. ";
+}
+li:nth-last-child(12):first-child::before {
+	content: "list, 12 items. ";
+}
+
+#vasilis-srm-summary {
+	margin: 0;
+	z-index: 1337;
+}
