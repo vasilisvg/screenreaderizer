@@ -1,6 +1,6 @@
 # screenreaderizer
 
-Use this [screenreaderize me](javascript:(function(){ttm=(new Date).getTime();scrpt=document.createElement('script');scrpt.src="https://vasilis.nl/screenreaderizer/js.js?"+ttm;stl = document.createElement('link');stl.setAttribute('rel','stylesheet');stl.href="https://vasilis.nl/screenreaderizer/css.css?"+ttm;document.body.appendChild(scrpt);document.body.appendChild(stl);})();) bookmarklet to get an impression of the content that’s been added to your website when it is read out loud by a screen reader. It’s purpose is to make you wonder if your page really needs 450 links and 68 random headings.
+Use this [screenreaderize me](javascript:(function(){ttm=(new Date).getTime();scrpt=document.createElement('script');scrpt.src="https://vasilis.nl/screenreaderizer/js.js?"+ttm;stl=document.createElement('link');stl.setAttribute('rel','stylesheet');stl.href="https://vasilis.nl/screenreaderizer/css.css?"+ttm;document.body.appendChild(scrpt);document.body.appendChild(stl);})();) bookmarklet to get an impression of the content that’s been added to your website when it is read out loud by a screen reader. It’s purpose is to make you wonder if your page really needs 450 links and 68 random headings.
 
 ## Is it accurate?
 
