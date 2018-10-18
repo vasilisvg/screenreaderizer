@@ -30,7 +30,7 @@ button::after,
 
 /* Headings */
 h1::before {
-	content: "Heading level 1: ";
+	content: "Heading level 1: " attr(data-expo);
 }
 h2::before {
 	content: "Heading level 2: ";
