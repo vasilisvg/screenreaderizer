@@ -131,6 +131,7 @@ const replaceOnDocument = (pattern, string, {target = document.body} = {}) => {
 		excl = "!";
 	}
 	while(i < els.length) {
-		els[i].setAttribute('data-vasilis-srm-expo',excl);	
+		els[i].setAttribute('data-vasilis-srm-expo',excl);
+		i++;	
 	}
   }
