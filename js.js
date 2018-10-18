@@ -16,6 +16,7 @@ function displaySummary(){
 	if(!document.querySelector('#vasilis-srm-summary')){
 		document.body.insertBefore(summary,document.querySelector('body > *:first-child'));
 	}
+	document.documentElement.classList.add('srm-vasilis-c' + (countLinks*1 + countHeadings*1));
 }
 displaySummary();
 
