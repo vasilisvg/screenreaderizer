@@ -16,7 +16,7 @@ function displaySummary(){
 	if(!document.querySelector('#vasilis-srm-summary')){
 		document.body.insertBefore(summary,document.querySelector('body > *:first-child'));
 	}
-	document.documentElement.classList.add('srm-vasilis-c' + (countLinks*1 + countHeadings*1));
+	document.documentElement.setAttribute('data-vasilis-srm', (countLinks*1 + countHeadings*1));
 }
 displaySummary();
 
@@ -121,3 +121,16 @@ const replaceOnDocument = (pattern, string, {target = document.body} = {}) => {
   
   // Replace | with the words "vertical line";
   replaceOnDocument(/\|/g, ", vertical line, ");
+
+  function exponentionalize(){
+	var els = document.querySelectorAll('a, h1, h2, h3, h4, h5, h6, button, [class^="vasilis-srm"],li:first-child,navigation');
+	var i = 0;
+	var exp = (document.querySelector('html').getAttribute('data-vasilis-srm') * 1);
+	var excl = '';
+	if (exp > 10) {
+		excl = "!";
+	}
+	while(i < els.length) {
+		els[i].setAttribute('data-vasilis-srm-expo',excl);	
+	}
+  }
