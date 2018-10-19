@@ -127,11 +127,26 @@ const replaceOnDocument = (pattern, string, {target = document.body} = {}) => {
 	var i = 0;
 	var exp = (document.querySelector('html').getAttribute('data-vasilis-srm') * 1);
 	var excl = '';
+	console.log(Math.pow((exp/10), 2));
 	if (exp > 10) {
 		excl = "!";
 	}
+	if (exp > 20) {
+		excl = "!!";
+	}
+	if (exp > 30) {
+		excl = "!!!!";
+	}
+	if (exp > 40) {
+		excl = "!!!!!!!!";
+	}
+	if (exp > 50) {
+		excl = "!!!!!!!!!!!!!!!!";
+	}
 	while(i < els.length) {
+		console.log('i');
 		els[i].setAttribute('data-vasilis-srm-expo',excl);
 		i++;	
 	}
   }
+  exponentionalize();

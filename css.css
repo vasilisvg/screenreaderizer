@@ -17,15 +17,15 @@
 
 /* Inline elements */
 a:not([role="button"])::before {
-	content: "link, ";
+	content: "link, " attr(data-vasilis-srm-expo);
 }
 abbr[title]::after {
-	content: " (" attr(title) ") ";
+	content: " (" attr(title) ") " attr(data-vasilis-srm-expo);
 	text-transform: capitalize;
 }
 button::after,
 *[role="button"]::after {
-	content: ", button";
+	content: ", button" attr(data-vasilis-srm-expo);
 }
 
 /* Headings */
@@ -33,67 +33,67 @@ h1::before {
 	content: "Heading level 1: " attr(data-vasilis-srm-expo);
 }
 h2::before {
-	content: "Heading level 2: ";
+	content: "Heading level 2: " attr(data-vasilis-srm-expo);
 }
 h3::before {
-	content: "Heading level 3: ";
+	content: "Heading level 3: " attr(data-vasilis-srm-expo);
 }
 h4::before {
-	content: "Heading level 4: ";
+	content: "Heading level 4: " attr(data-vasilis-srm-expo);
 }
 h5::before {
-	content: "Heading level 5: ";
+	content: "Heading level 5: " attr(data-vasilis-srm-expo);
 }
 h6::before {
-	content: "Heading level 6: ";
+	content: "Heading level 6: " attr(data-vasilis-srm-expo);
 }
 
 /* Navigation */
 nav::before {
-	content: "navigation. ";
+	content: "navigation. " attr(data-vasilis-srm-expo);
 }
 
 /* Lists */
 li:first-child::before {
-	content: "list, more than 12 items. ";
+	content: "list, more than 12 items. " attr(data-vasilis-srm-expo);
 	position: absolute;
 	z-index: 1337;
 }
 li:nth-last-child(1):first-child::before {
-	content: "list, 1 item. ";
+	content: "list, 1 item. " attr(data-vasilis-srm-expo);
 }
 li:nth-last-child(2):first-child::before {
-	content: "list, 2 items. ";
+	content: "list, 2 items. " attr(data-vasilis-srm-expo);
 }
 li:nth-last-child(3):first-child::before {
-	content: "list, 3 items. ";
+	content: "list, 3 items. " attr(data-vasilis-srm-expo);
 }
 li:nth-last-child(4):first-child::before {
-	content: "list, 4 items. ";
+	content: "list, 4 items. " attr(data-vasilis-srm-expo);
 }
 li:nth-last-child(5):first-child::before {
-	content: "list, 5 items. ";
+	content: "list, 5 items. " attr(data-vasilis-srm-expo);
 }
 li:nth-last-child(6):first-child::before {
-	content: "list, 6 items. ";
+	content: "list, 6 items. " attr(data-vasilis-srm-expo);
 }
 li:nth-last-child(7):first-child::before {
-	content: "list, 7 items. ";
+	content: "list, 7 items. " attr(data-vasilis-srm-expo);
 }
 li:nth-last-child(8):first-child::before {
-	content: "list, 8 items. ";
+	content: "list, 8 items. " attr(data-vasilis-srm-expo);
 }
 li:nth-last-child(9):first-child::before {
-	content: "list, 9 items. ";
+	content: "list, 9 items. " attr(data-vasilis-srm-expo);
 }
 li:nth-last-child(10):first-child::before {
-	content: "list, 10 items. ";
+	content: "list, 10 items. " attr(data-vasilis-srm-expo);
 }
 li:nth-last-child(11):first-child::before {
-	content: "list, 11 items. ";
+	content: "list, 11 items. " attr(data-vasilis-srm-expo);
 }
 li:nth-last-child(12):first-child::before {
-	content: "list, 12 items. ";
+	content: "list, 12 items. " attr(data-vasilis-srm-expo);
 }
 
 #vasilis-srm-summary {
