@@ -5,6 +5,7 @@
 [id ^= "vasilis-srm"],
 [class^="vasilis-srm"] {
 	color: limegreen !important;
+	-webkit-text-fill-color: limegreen !important;
 	background: black;
 	position: relative !important;
 	display: inline-block !important;
